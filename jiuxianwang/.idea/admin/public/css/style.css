@@ -1,0 +1,21 @@
+
+
+*{
+    font-family: 微软雅黑;
+}
+
+.navbar-brand{
+    color: #ffffff !important;
+}
+
+body{
+    padding-top: 70px;
+}
+.navbar{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.row{
+    padding-left: 70px;
+    padding-right: 70px;
+}

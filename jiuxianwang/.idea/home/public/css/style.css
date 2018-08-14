@@ -1,0 +1,779 @@
+*{
+    font-family:  Arial, Helvetica, sans-serif, 宋体;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: #f9f9f9;
+    overflow-x: hidden;
+}
+
+
+a{
+    text-decoration: none;
+    color: #666;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hr{
+    width:80%;
+    height:0px;
+    margin:0 auto;
+    border-top:1px dashed #cccccc;
+}
+
+/*top 顶部*/
+.top{
+    height: 26px;
+    background: #f2f2f2;
+}
+
+.main{
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 26px;
+    color: #999;
+}
+
+.main-left{
+    float: left;
+}
+
+.main-right{
+    float: right;
+}
+
+.main-right .right-size{
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.main-left .left-size{
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.main-right .right-color{
+    color: red;
+}
+
+.main-right .right-bg{
+    background-color: red;
+    color: #ffffff;
+    padding: 0 2px;
+    border-radius: 3px;
+}
+
+.main-left .left-hover:hover,
+.main-right .right-hover:hover{
+    color: red;
+    text-decoration:underline;
+}
+
+.main-right .shop-cart,
+.main-right .phone,
+.main-right .web-nav,
+.main-right .service,
+.main-right .jiuxian{
+    width: 15px;
+    height: 15px;
+    padding-left:15px;
+}
+
+.main-right .shop-cart{
+    background: url("../img/public.png")no-repeat -18px 2px;
+}
+
+.main-right .phone{
+    background: url("../img/public.png")no-repeat -62px 2px;
+}
+
+.main-right .web-nav{
+    background: url("../img/public.png")no-repeat -80px 3px;
+}
+
+.main-right .service{
+    background: url("../img/public.png")no-repeat -90px -262px;
+}
+
+.main-right .jiuxian{
+    background: url("../img/public.png")no-repeat -99px 7px;
+    margin-left: 2px;
+}
+
+.main-right .right-jx{
+    width: 70px;
+    float: left;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.main-right .right-jx .right-jx-div{
+    width: 70px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-top: 1px;
+}
+
+.main-right .right-jx-list{
+    position: absolute;
+    width: 70px;
+    background: #ffffff;
+    display: none;
+}
+
+.right-jx-list ul{
+    list-style: none;
+    padding-left: 5px;
+}
+
+/*banner  横幅广告*/
+
+.banner{
+    width: 100%;
+    height: 90px;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+
+.banner-bg{
+    width: 100%;
+    height: 90px;
+    background: url("../img/download.jpg") no-repeat top center scroll;
+}
+
+/*header  头部*/
+
+.header{
+    height: 125px;
+    background: #ffffff;
+}
+
+.header-main{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-main .main-logo,
+.header-main .main-ads,
+.header-main .main-search,
+.header-main .main-dis{
+    float: left;
+    height: 65px;
+    margin-top: 30px;
+}
+
+.header-main .main-ads{
+    margin-left: 10px;
+}
+
+.header-main .main-search{
+    width: 540px;
+    margin-left: 20px;
+    height: 65px;
+}
+
+.header-main .main-dis{
+    margin-left: 20px;
+}
+
+.main-search .search-top{
+    height: 32px;
+    border: 3px solid #c00;
+}
+
+.search-top .search-top-form{
+    width: 435px;
+    height: 22px;
+    line-height: 22px;
+    padding: 5px;
+    border: 0 none;
+    color: #666;
+    float: left;
+    outline:none;
+ }
+
+.search-top .search-top-btn{
+    width: 85px;
+    height: 32px;
+    line-height: 32px;
+    border: 0 none;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: #fff;
+    background: #c00;
+    cursor: pointer;
+    float: right;
+}
+
+.main-search .search-bottem{
+    width: 540px;
+    height: 18px;
+    overflow: hidden;
+    padding-top: 5px;
+}
+
+.search-bottem ul{
+    list-style: none;
+}
+
+.search-bottem ul li{
+    float: left;
+    padding: 0 7px;
+    font-size: 12px;
+    color: #999;
+    border-right: 1px solid #ccc;
+}
+
+.search-bottem ul li a:hover{
+    color: red;
+    text-decoration:underline;
+}
+
+/*ppt 导航*/
+
+.ppt{
+    height: 34px;
+    background: #990000;
+}
+
+/*左侧导航*/
+.ppt .main-top-nav{
+    height: 34px;
+    overflow: hidden;
+    background: #900;
+    color: #fff;
+}
+
+.ppt .main-top-nav ul{
+    width: 1200px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.ppt .main-top-nav ul li{
+    float: left;
+    line-height: 34px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.ppt .main-top-nav ul li a{
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ppt .main-top-nav .top-nav-all:hover{
+    background: #ce171f;
+}
+
+.ppt .main-top-nav .top-nav-gif{
+    float: right;
+}
+
+.ppt .top-nav-allclass{
+    background: #ce171f;
+    width: 190px;
+    text-align: center;
+    margin-left: 0px!important;
+    padding-left: -10px;
+    padding-right: -10px;
+}
+
+.ppt .main-menu{
+    width: 1200px;
+    height: 470px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.ppt .menu-left-nav{
+    width: 190px;
+    height: 470px;
+    background: #ffffff;
+    float: left;
+}
+
+.ppt .menu-left-nav ul{
+    list-style: none;
+}
+
+.ppt .menu-left-nav ul li{
+    padding-left: 15px;
+    padding-top: 2px;
+    line-height: 30px;
+    height: auto;
+}
+
+.ppt .menu-left-nav ul li{
+    color: #000;
+    font-size: 14px;
+}
+
+.ppt .menu-left-nav ul li:hover{
+    cursor: pointer;
+}
+
+.ppt .nav-right{
+    width: 495px;
+    height: 470px;
+    background: #f1f1f1;
+    position: absolute;
+    top: 0px;
+    left: 190px;
+    color: #000;
+    display: none;
+    overflow: hidden;
+}
+
+.ppt .nav-right-center{
+    width: 100%;
+    height: auto;
+}
+
+.ppt .nav-right-left{
+    width: 20%;
+    height: auto;
+    float: left;
+    text-align: right;
+    padding-top: 20px;
+}
+
+.ppt .nav-right-left span{
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.ppt .nav-right-right{
+    width: 80%;
+    height: auto;
+    float: left;
+    background: #ffffff;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.ppt .nav-right-right a{
+    margin-right: 8px;
+}
+
+.ppt .nav-right-right-up{
+    height: 300px;
+}
+
+.ppt .border-bg{
+    background-color: #f90;
+    border-radius: 3px;
+    color: #fff;
+    padding: 1px;
+}
+
+.ppt .kp-color{
+    color: #f90;
+}
+
+.ppt .menu-right-nav{
+    width: 190px;
+    height: 470px;
+    float: right;
+}
+
+.ppt .menu-right-nav ul{
+    list-style: none;
+}
+
+.ppt .menu-right-nav ul li img{
+    width: 190px;
+    height: 152px;
+}
+
+.carousel{
+    margin:0px auto;
+    width:1920px;
+    height:470px;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel .img{
+    /*width:15360px;*/
+    position: relative;
+    left:0px;
+    top:0px;
+    list-style: none;
+    z-index: 0;
+}
+
+.carousel .img li{
+    float:left;
+}
+
+.carousel .num{
+    position:absolute;
+    width:100%;
+    bottom:20px;
+    left:0px;
+    text-align: center;
+    font-size: 0px;
+    z-index: 1;
+}
+
+.carousel .num li{
+    width:20px;
+    height:20px;
+    background: #000000;
+    border-radius: 50%;
+    display: inline-block;
+    margin:0 3px;
+    cursor: pointer;
+}
+
+.carousel .num li.on{
+    background: #f00;
+}
+
+.carousel .btn{
+    width:30px;
+    height:50px;
+    background: rgba(0,0,0,0.5);
+    position:absolute;
+    top:50%;
+    margin-top:-25px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+    color:#fff;
+    font-size: 40px;
+    font-family: "宋体";
+    display: none;
+}
+
+.carousel:hover .btn{
+    display: block;
+}
+
+.carousel .btn_l{
+    left:0px;
+}
+
+.carousel .btn_r{
+    right:0px;
+}
+
+.content{
+    width: 100%;
+    background: #f9f9f9;
+    overflow: hidden;
+    position: relative;
+}
+
+.content .content-box{
+    width: 1200px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    position: relative;
+}
+.content .adv-left{
+    width: 100%;
+    position: absolute;
+    left: -500px;
+    top:0;
+    height: 1000px;
+    z-index: 0;
+}
+
+.content .adv-right{
+    width: 100%;
+    right: -500px;
+    top:0;
+    height: 1000px;
+    z-index: 0;
+    position: absolute;
+}
+
+.content .adv-left img{
+    width: 500px;
+    height: 1000px;
+    display: block;
+    outline: none;
+}
+
+.content .adv-right img{
+    width: 500px;
+    height: 1000px;
+    display: block;
+    outline: none;
+    float: right;
+}
+
+.content .content-floor{
+    top:147.5px;
+    left:50%;
+    -webkit-transform: scaleY(1.5);
+    -moz-transform: scaleY(1.5);
+    -ms-transform: scaleY(1.5);
+    -o-transform: scaleY(1.5);
+    transform: scaleY(1.5);
+    opacity: 0;
+    z-index: 10;
+    margin-left: -650px;
+    position: fixed;
+    width: 40px;
+    height: 205px;
+}
+
+.content .content-activity{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.content .activity-left{
+    width: 920px;
+    float: left;
+    height: 499px;
+    border: 1px solid #cccccc;
+}
+
+.content .left-label{
+    width: 920px;
+    overflow: hidden;
+    height: 38px;
+    position: relative;
+    top: 5px;
+}
+
+.content .left-label ul li{
+    width: 182px;
+    border: 1px solid #ececec;
+    height: 35px;
+    /*position: absolute;*/
+    top: 0;
+    cursor: pointer;
+    line-height: 35px;
+    font-size: 16px;
+    color: #6e6e6e;
+    background: #f9f9f9;
+    text-align: center;
+    float: left;
+}
+
+.content .left-content{
+    width: 915px;
+    height: 460px;
+    /*overflow: hidden;*/
+    background: #ffffff;
+    padding-left: 5px;
+    position: relative;
+}
+.content .commodity{
+    width: 910px;
+    height: 460px;
+    margin: 0 auto;
+    padding: 10px 0;
+    position: absolute;
+    display: none;
+}
+
+.content .commodity ul{
+    margin: 0px;
+}
+
+.content .commodity ul li{
+    width: 182px;
+    float: left;
+    margin-top: 18px;
+    position: relative;
+}
+
+.content .commodity-pic {
+    width: 182px;
+    height: 200px;
+}
+
+.content .commodity-pic img{
+    width: 160px;
+    height: 160px;
+    padding: 0 11px;
+    position: relative;
+    z-index: 1;
+}
+
+.content .commodity-p1{
+    font-size: 12px;
+    text-overflow: ellipsis;
+    line-height: 18px;
+    width: 160px;
+    height: 18px;
+    padding: 0 6px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.content .commodity-p2{
+    padding: 0 6px;
+    font-size: 12px;
+    color: red;
+    position: relative;
+}
+
+.content .commodity-pic a:hover,
+.content .notice-content a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.content .activity-right{
+    width: 270px;
+    float: right;
+    height: 500px;
+    /*border: 1px solid #cccccc;*/
+}
+
+.content .active{
+    color: red!important;
+    border-top: 2px solid red!important;
+    background: #ffffff!important;
+    border-bottom:0 !important;
+}
+
+.content .active-1{
+    display: block!important;
+}
+
+
+.content .right-notice{
+    width: 270px;
+    height: 140px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.content .notice-label{
+    height: 35px;
+    position: relative;
+}
+
+.content .notice-label ul li{
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    width: 133px;
+    height: 33px;
+    border: 1px solid #ececec;
+    line-height: 35px;
+    position: relative;
+    top: 0;
+    cursor: pointer;
+    background: #f9f9f9;
+    float: left;
+}
+
+.content .notice-content{
+    border: 1px solid #ececec;
+    border-top: none;
+    height: 90px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.content .notice{
+    width: 258px;
+    margin: 0 auto;
+    position: absolute;
+    display: none;
+}
+
+.content .notice ul li{
+    float: left;
+    width: 114px;
+    margin-left: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+.content .active-2{
+    display: block!important;
+}
+
+.content .daily-recom{
+    width: 268px;
+    height: 157px;
+    border: 1px solid #ececec;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+    margin-top: 10px;
+}
+
+.content .daily-recom ul{
+    width: 804px;
+    height: 157px;
+}
+
+.content .daily-recom ul li{
+    float: left;
+    width: 268px;
+    height: 157px;
+}
+
+.content .wine-recom{
+	width: 268px;
+    height: 178px;
+    border: 1px solid #ececec;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    margin-top: 10px;
+}
+
+.content .wine-recom ul li{
+	float: left;
+    width: 268px;
+    height: 178px;
+}
+
+.content .content-place{
+	height: 130px;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    overflow: hidden;
+    background: url(../img/place.png);
+    border-radius: 20px;
+}
+
+
+.content .content-place ul li{
+	width: 290px;
+    height: 126px;
+	float:left;
+	margin-top: 10px;
+	margin-left: 100px;
+}
+
+.content .content-qita{
+    width: 100%;
+    height: 1000px;
+}
+
+
+
+
