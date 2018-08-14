@@ -337,7 +337,7 @@ $(document).ready(function () {
     });
     window.onscroll=function () {
         //盒子居顶的高度
-        var baijiuHeight=$(".baijiu").offset().top+($(".baijiu").height())*2;
+        var baijiuHeight=$(".baijiu").offset().top+($(".baijiu").height())*1;
         // var potaojiuHeight=$(".content .putaojiu").get(0).offsetTop;
         // var yangjiuHeight=$(".content .yangjiu").get(0).offsetTop;
         // var pijiuHeight=$(".content .pijiu").get(0).offsetTop;
